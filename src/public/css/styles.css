@@ -1078,16 +1078,16 @@ video {
   transition-duration: 150ms;
 }
 
-.delay-1000 {
-  transition-delay: 1000ms;
+.delay-500 {
+  transition-delay: 500ms;
 }
 
 .duration-1000 {
   transition-duration: 1000ms;
 }
 
-.ease-linear {
-  transition-timing-function: linear;
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-letter\:float-left::first-letter {
